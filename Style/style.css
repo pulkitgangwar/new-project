@@ -1,0 +1,368 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.backgroundImage {
+  background-color: black;
+  background-image: url("../Images/1212.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.container {
+  padding: 50px 50px;
+}
+.main-heading h2 {
+  padding-left: 23px;
+  padding-top: 23px;
+  text-transform: capitalize;
+  color: green;
+  /* font-family:verdana;
+  font-weight: 100; */
+}
+.fixxer {
+  display: flex;
+  background-color: black;
+  background-image: url("../Images/1212.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.menubar {
+  padding: 12px;
+}
+.menubar div {
+  height: 10px;
+  width: 40px;
+  background-color: grey;
+  margin: 5px;
+  position: relative;
+  left: 120px;
+}
+.heading1 {
+  text-align: center;
+  padding-top: 120px;
+}
+.heading1 h2 {
+  font-size: 32px;
+  font-weight: 100;
+  font-family: verdana;
+  color: black;
+  font-family: verdana;
+}
+.iconcontrol {
+  text-align: center;
+  padding-top: 40px;
+}
+.iconcontrol i {
+  padding: 35px;
+  border: 1px solid green;
+  border-radius: 100%;
+  background: green;
+  color: white;
+  font-size: 35px;
+}
+.iconcontrol i:hover {
+  transform: scale(1.5, 1.5);
+  transition: 500ms ease;
+  cursor: pointer;
+}
+/* section 2 starting here */
+.heading2 {
+  text-align: center;
+  padding: 22px;
+}
+.heading2 h2 {
+  text-align: center;
+  font-size: 30px;
+  color: grey;
+  font-weight: 100;
+  font-family: verdana;
+}
+.para {
+  text-align: center;
+}
+.para h3 {
+  font-size: 15px;
+  color: grey;
+  font-family: verdana;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.flexboxcontainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+.work-flex h2 {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: verdana;
+}
+.work-flex h2 {
+  font-family: verdana;
+  font-weight: 300;
+}
+@media only screen and (min-width: 375px) {
+  .menubar div {
+    position: relative;
+    left: 170px;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .menubar div {
+    position: relative;
+    left: 210px;
+  }
+  /* .main-upper-menu{
+    visibility: hidden;
+  }
+   */
+}
+@media only screen and (min-width: 768px) {
+  .menubar {
+    visibility: hidden;
+  }
+
+  .main-heading h2 {
+    font-size: 35px;
+  }
+
+  .menubar2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+  }
+  .menubar2 ul {
+    list-style: none;
+  }
+  .menubar2 ul li {
+    display: inline-block;
+    padding: 12px;
+  }
+  .menubar2 ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: grey;
+    font-family: verdana;
+  }
+  .menubar2 ul li a:hover {
+    color: green;
+    transition: 500ms ease;
+  }
+  .main-button {
+    position: absolute;
+    top: 26px;
+    left: 84%;
+  }
+  .main-button button {
+    padding: 8px 15px;
+    background: transparent;
+    border: 2px solid black;
+    font-family: verdana;
+    font-size: 13px;
+  }
+  .main-button button:hover {
+    background: green;
+    color: white;
+    transition: 500ms ease;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 360px) and(max-width:375px) {
+  .main-upper-menu {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .main-heading h2 {
+    padding-left: 100px;
+    padding-top: 23px;
+    text-transform: capitalize;
+    color: green;
+    font-family: verdana;
+    font-weight: 100;
+    font-size: 25px;
+  }
+  .menubar2 {
+    position: absolute;
+    top: 20px;
+    left: 60%;
+  }
+  .menubar2 ul li a {
+    text-transform: uppercase;
+  }
+  .heading1 h2 {
+    font-size: 72px;
+    text-transform: capitalize;
+    color: black;
+  }
+  .heading2 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+  }
+  .para h3 {
+    font-size: 19px;
+    color: grey;
+    font-weight: 100;
+  }
+  .flexboxcontainer {
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding-top: 25px;
+  }
+  .flex-items {
+    width: 20px;
+  }
+  .work-flex h2 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: verdana;
+  }
+}
+
+.working-flex1 {
+  background-color: cyan;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  text-align: center;
+}
+.working-flex1 h2 {
+  font-size: 30px;
+  font-family: verdana;
+}
+.working-flex1 p {
+  text-align:center;
+  font-size: 16px;
+  font-weight: 100;
+  font-family:verdana;
+  padding: 30px;
+}
+.working-flex2 {
+  background-color: grey;
+  padding-top: 43px;
+  padding-bottom: 43px;
+  text-align: center;
+}
+.working-flex2 h2 {
+  font-size: 30px;
+  font-family: verdana;
+}
+.working-flex2 p {
+  text-align:center;
+  font-size: 16px;
+  font-weight: 100;
+  font-family:verdana;
+  padding: 30px;
+}
+@media only screen and (min-width:1000px){
+  .container1{
+    margin-top:100px;
+  }
+  .flexbox{
+     display:flex;
+    
+  }
+  .backgroundImagee{
+    width:50%;
+  
+  }
+  .working-flex1{
+   width:50%;
+   background-color:black;
+  }
+  .working-flex2{
+    width:50%;
+    background-color:cyan;
+  }
+  .backgroundImagee2{
+     width:50%;
+  }
+  .working-flex1 h2{
+    padding-top:50px;
+    padding-left:60px;
+    text-align:left;
+    font-size:40px;
+    text-transform: capitalize;
+    color:white;
+    
+  }
+  .working-flex1 p {
+    color:white;
+    padding-left:60px;
+    text-align:left;
+    line-height:30px;
+    font-weight: 100;
+  }
+  .working-flex2 h2{
+    padding-top:50px;
+    padding-left:60px;
+    text-align:left;
+    font-size:40px;
+    text-transform: capitalize;
+    color:white;
+    
+  }
+  .working-flex2 p {
+    color:white;
+    padding-left:60px;
+    text-align:left;
+    line-height:30px;
+    font-weight: 100;
+  }
+  
+}
+.container2{
+  padding-top:50px;
+  background-color:#ecf0f1;
+}
+.main-line{
+  text-align:center;
+
+}
+.main-line h3{
+  font-size:20px;
+  font-weight: 100;
+  padding:20px;
+  font-family:verdana;
+  text-transform: uppercase;
+}
+.lines{
+  display:block;
+  margin:0 auto;  
+  width:45px;
+  height:3px;
+  background-color:green;
+  text-align:center;
+  
+}
+.email-form{
+  padding-top:20px;
+  text-align:center;
+  
+}
+.email-form input{
+  padding:10px 30px;
+  border:2px solid grey;
+  font-size:15px;
+  font-family:verdana;
+  text-transform: capitalize;
+}
+.email-button{
+  text-align:center;
+  padding-top:15px;
+}
+.email-button input{
+  padding:10px 20px;
+  background:green;
+  text-transform: capitalize;
+  color:white;
+  border:1px solid green;
+}
+.email-button input:hover{
+  background-color:lightgreen;
+  transition:500ms ease;
+  border:1px solid lightgreen;
+  cursor:pointer;
+}
