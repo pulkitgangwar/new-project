@@ -439,3 +439,45 @@
     padding-bottom:25px;
   }
 }
+#accordion{
+  padding-top:20px;
+}
+#accordion section p{
+  display:none;
+  text-align:left;
+}
+#accordion section a{
+  text-align:left;
+  font-size:20px;
+  text-decoration:none;
+  padding:12px;
+  color:black;
+}
+#accordion section h5{
+  font-family: verdana;
+  font-weight: 100;
+}
+#accordion section p{
+  font-size:15px;
+  padding:12px;
+  font-family: verdana;
+  font-weight: 100;
+}
+#accordion section a:hover{
+  color:green;
+  transition:500ms ease;
+}
+#accordion section:target p{
+  display:block;
+  text-align:left;
+}
+@media only screen and (min-width:1000px){
+  #accordion{
+    padding:35px;
+  }
+  #accordion section {
+    border-top:1px solid lightgrey;
+    padding:12px;
+    border-collapse: collapse;
+  }
+}
